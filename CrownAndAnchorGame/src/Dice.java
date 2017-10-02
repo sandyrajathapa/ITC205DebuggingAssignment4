@@ -1,3 +1,5 @@
+//Initial Commit for Dice.java Thapa Sandesh Raja 11575549
+
 public class Dice {
 			
 	private DiceValue value;
