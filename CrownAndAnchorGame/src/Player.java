@@ -1,4 +1,4 @@
-
+//Initial Commit for Player.java Thapa Sandesh Raja 11575549
 public class Player {
 	private String name;
 	private int balance;
