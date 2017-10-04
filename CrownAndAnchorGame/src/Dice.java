@@ -12,7 +12,7 @@ public class Dice {
 		return value;
 	}
 
-	public DiceValue roll() {
+	public DiceValue roll() { //Thapa Sandesh Raja 11575549 BUG 3 found below this Line
 		return DiceValue.getRandom();
 	}		
 	
