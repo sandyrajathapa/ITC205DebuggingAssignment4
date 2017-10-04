@@ -42,7 +42,7 @@ public class Game {
 		
 		int winnings = matches * bet;
 
-		if (matches > 0) {			
+		if (matches > 0) { //Thapa Sandesh Raja 11575549 BUG FOUND BELOW THIS LINE			
 			player.receiveWinnings(winnings);
 		}
         return winnings;		
