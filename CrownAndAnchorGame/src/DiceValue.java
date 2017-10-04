@@ -24,7 +24,7 @@ public enum DiceValue {
 	}
 	
 	public static DiceValue getRandom() {
-		int random = RANDOM.nextInt(DiceValue.SPADE.ordinal());
+		int random = RANDOM.nextInt(DiceValue.SPADE.ordinal()); // Thapa Sandesh 11575549 BUG 4 Located in DiceValue.java
 		return values()[random];
 	}
 	
